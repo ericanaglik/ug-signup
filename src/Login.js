@@ -70,10 +70,10 @@ class Login extends Component {
                             onKeyUp={e => this.handleInput("password", e)}
                           />
                           </form>
-                          <div class="plsgod">
+                          <div class="loginbutton">
                             <Button text="LOGIN" onClick={this.handleSubmit} />
                           </div>
-                          <div class="plsbutton">
+                          <div class="registerinstead">
                             <Link to="/signup" className="navbar__link">
                               Don't have an account? Register Now
                             </Link>
