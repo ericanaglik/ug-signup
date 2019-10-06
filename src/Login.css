@@ -14,7 +14,7 @@ body{
   }
   .orangebg{
     width: 100%;
-    height: 340px;
+    height: 400px;
     background:#F26522;
     z-index: 1;
     position: absolute;
@@ -24,7 +24,7 @@ body{
   }
 
   #signup{
-    padding-top: 200px;
+    padding-top: 285px;
     padding-right: 680px;
     padding-left: 680px;
     padding-bottom: 20px;
@@ -71,10 +71,10 @@ body{
   }
   img.logo{
     display:block;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left:120px;
+    margin-top: 150px;
     margin-bottom:20px;
-    height:80px;
+    height:120px;
   }
   .form{
     background:#fff;
@@ -88,7 +88,7 @@ body{
     
   .c-input {  	
       width: 100%;
-      
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.19), 0 12px 15px 0 rgba(0, 0, 0, 0);
       margin-bottom: 15px;
       padding: 10px;
       font-size: 14px;
@@ -100,7 +100,6 @@ body{
   .c-button {
       width: 100%;
       padding: 10px 10px;
-      
       font-size: 15px;
       color: #fff;
       text-transform : uppercase;
@@ -109,6 +108,9 @@ body{
       background-color: #F26522;    
       cursor: pointer;  
       
+    }
+    .c-button:hover{
+      box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.19), 0 12px 15px 0 rgba(0, 0, 0, 0);
     }
   
     a:link {
@@ -142,12 +144,9 @@ body{
     padding-right: 85px;
     padding-bottom: 40px;
 }
-.registerinstead {
-    padding-top: 20px;
-    padding-left: 40px;
-}
-.navbar__link{
-    padding-bottom: 40px;
+.navbar__link {
+  padding-right: 30px;
+  padding-bottom: 50px;
 }
 a{
     font-size: 10px;

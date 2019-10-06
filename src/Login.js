@@ -39,9 +39,9 @@ class Login extends Component {
       <div>
         
         <div class="blackbg"></div>
-        <div class="orangebg"><img src="https://i.ibb.co/0GR3kX3/upwardlyglobal.png"
+        <div class="orangebg">
+        <img src="https://i.ibb.co/0GR3kX3/upwardlyglobal.png"
                       className="logo"
-                      width="200px"
                     /></div>
         <section id="signup">
           <div className="container ">
@@ -71,13 +71,12 @@ class Login extends Component {
                           />
                           </form>
                           <div class="loginbutton">
-                            <Button text="LOGIN" onClick={this.handleSubmit} />
-                          </div>
-                          <div class="registerinstead">
+                            <Button text="LOGIN" onClick={this.handleSubmit} /></div>
                             <Link to="/signup" className="navbar__link">
                               Don't have an account? Register Now
                             </Link>
-                          </div>
+                            
+                          
                         
                       </div>
                     </div>
