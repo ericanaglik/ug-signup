@@ -23,29 +23,33 @@ body{
       padding-left: 0px;
   }
 
-  #signup{
+  #login{
     padding-top: 285px;
     padding-right: 680px;
     padding-left: 680px;
     padding-bottom: 20px;
     z-index: 3;
     position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
   }
-  #signup .card{
+  #login .card{
     background-color:#fff;
     border-radius:25px;
     box-shadow: 0 17px 50px 0 rgba(0, 0, 0, 0.19), 0 12px 15px 0 rgba(0, 0, 0, 0);
     z-index: 3;
     position: relative;
   }
-  #signup .card .card-title{
+  #login .card .card-title{
     padding: 2rem 1.2rem 0;
     margin-bottom:0;
     text-align:center;
     z-index: 3;
     position: relative;
   }
-  #signup .card .card-title h2{
+  #login .card .card-title h2{
     position:relative;
     font-size:1.2rem;
     letter-spacing:.5px;
@@ -53,7 +57,7 @@ body{
     text-transform:uppercase;
     margin-bottom:20px;
   }
-  #signup .card .card-title h2:after{
+  #login .card .card-title h2:after{
     position:absolute;
     content:'';
     bottom:-10px;

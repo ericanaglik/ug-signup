@@ -43,7 +43,7 @@ class Login extends Component {
         <img src="https://i.ibb.co/0GR3kX3/upwardlyglobal.png"
                       className="logo"
                     /></div>
-        <section id="signup">
+        <section id="login">
           <div className="container ">
             {/* <div className="row"> */}
               {/* <div className="col-md-10 mx-auto"> */}
